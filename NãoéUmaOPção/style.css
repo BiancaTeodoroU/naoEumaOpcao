@@ -1,0 +1,73 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+:root {
+    ---imagem: 'gatinhos.jpeg'
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Fredoka One', cursive;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+}
+
+main {
+    width: 320px;
+    height: 320px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    position: relative;
+    border-radius: 20px;
+}
+
+
+h1 {
+    font-size: 1.6em;
+    text-align: center;
+    margin-top: 40px;
+    font-weight: 200;
+    color: rgba(0,0,0,0.9);
+}
+
+.menor {
+    display: inline-block;
+    margin: auto;
+    margin-top: 30px;
+    margin-left: 35px;
+}
+
+button {
+    width: 100px;
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 10px;
+    display: inline-block;
+    background-color: rgb(226, 180, 255);
+    color: white;
+}
+
+.bnt2 {
+    margin-left: 50px;
+}
+
+.maior2 {
+    display: none;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+img {
+    width: 100%;
+    border-radius: 20px;
+    opacity: 95%;
+}
